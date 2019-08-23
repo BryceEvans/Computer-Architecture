@@ -7,20 +7,22 @@ SAVE = 5
 ADD = 6
 
 memory = [
-  PRINT_BRYCE,
-  PRINT_NUM,
-  45,
-  PRINT_SUM,
-  10,
-  32,
-  SAVE,
-  2,
-  99,
-  SAVE,
-  3,
-  1,
-  ADD,
-  HALT
+    PRINT_BRYCE,
+    PRINT_NUM,
+    45,
+    PRINT_SUM,
+    10,
+    32,
+    SAVE,
+    2,
+    99,
+    SAVE,
+    3,
+    1,
+    ADD,
+    2,
+    3,
+    HALT
 ]
 
 registers = [0] * 8
