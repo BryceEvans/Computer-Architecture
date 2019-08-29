@@ -46,7 +46,7 @@ class CPU:
                         self.ram[address] = int(num, 2)
                         address += 1
         except FileNotFoundError:
-            print(f"{sys.argv[0]}: {sys.arg[1]} Not Found)
+            print(f"{sys.argv[0]}: {sys.arg[1]} Not Found")
             sys.exit()
 
     def alu(self, op, reg_a, reg_b):
